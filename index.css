@@ -3,17 +3,27 @@ h1 {
     color: blue;
 }
 
-
 table {
     font-family: helvetica, sans-serif;
-border-collapse: collapse;
-border-width: 1px;
-border-style: solid;
-border-color: blueviolet;
+    border: 1px solid; 
+    color: blueviolet;
+    border-collapse: collapse;
+    width: 100%; 
 }
 
-th{
+th {
     font-weight: 800;
     background-color: blueviolet;
     color: aquamarine;
+    border: 1px solid blueviolet; 
+    text-align: left;
+}
+
+td {
+    border: 1px solid blueviolet; 
+    padding: 8px; 
+}
+
+tr:hover {
+    background-color: lavender;
 }
